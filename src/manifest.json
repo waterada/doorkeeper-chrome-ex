@@ -1,6 +1,6 @@
 {
   "name": "Self-Introduction for Doorkeeper",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 2,
   "description": "Doorkeeper 用の自己紹介に利用できるツールです。PHP勉強会で使っているものです。",
   "content_scripts": [
