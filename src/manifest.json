@@ -1,17 +1,21 @@
 {
   "name": "Self-Introduction for Doorkeeper",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 2,
   "description": "Doorkeeper 用の自己紹介に利用できるツールです。PHP勉強会で使っているものです。",
   "content_scripts": [
     {
        "matches": [
           "*://*.doorkeeper.jp/events/*"
+         ,"https://manage.doorkeeper.jp/groups/*/events/*/tickets"
+         ,"http://*.doorkeeper.jp/members"
        ]
       ,"js": ["jquery-2.1.3.min.js", "content_script.js"]
     }
   ],
   "permissions": [
      "*://*.doorkeeper.jp/events/*"
+    ,"https://manage.doorkeeper.jp/groups/*/events/*/tickets"
+    ,"http://*.doorkeeper.jp/members"
   ]
 }
